@@ -45,7 +45,7 @@ export default class Scene extends Component {
     createPlanets() {
         const numPlanets = 18;
         const screenFactor = Math.min(window.innerWidth, window.innerHeight) / 600;
-        const separation = 1 * screenFactor; // Adjust the separation between planets
+        const separation = 1.8 * screenFactor; // Adjust the separation between planets
         const planetSize = 0.3 * screenFactor; // Adjust the planet size
 
         for (let i = 0; i < numPlanets; i++) {
